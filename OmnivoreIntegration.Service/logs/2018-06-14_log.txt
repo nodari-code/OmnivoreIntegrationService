@@ -1,0 +1,36 @@
+2018/06/14 22:53:22.236|DEBUG|RestSharpCommunicator created. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketRepository..ctor
+2018/06/14 22:53:35.892|DEBUG|Start. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/14 22:53:39.908|DEBUG|Background worker start. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.<Post
+2018/06/14 22:53:43.377|DEBUG|End. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/14 22:53:58.611|TRACE|RestClient creation. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator.AddPayment
+2018/06/14 22:54:04.964|TRACE|Omnivore API call start. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator.AddPayment
+2018/06/14 22:54:07.701|TRACE|Omnivore API call end. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator+<AddPayment>d__7.MoveNext
+2018/06/14 22:54:21.072|TRACE|AddPayment time: 22252 msec. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator+<AddPayment>d__7.MoveNext
+2018/06/14 22:54:21.977|DEBUG|Communicator: payment end |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator+<AddPayment>d__7.MoveNext
+2018/06/14 22:54:23.484|INFO|Payment made. LocationId: i95jea7T TransactionId: 61 TicketId: 88837 Amount: 500 Tip: 0 |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator+<AddPayment>d__7.MoveNext
+2018/06/14 22:54:28.016|INFO|Payment added. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.PaymentWorker+<Make3PartyPaymentAsync>d__6.MoveNext
+2018/06/14 22:54:32.360|DEBUG|Background worker end. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController+<>c__DisplayClass2_0+<<Post>b__0>d.MoveNext
+2018/06/14 23:12:30.695|DEBUG|RestSharpCommunicator created. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketRepository..ctor
+2018/06/14 23:12:48.366|DEBUG|Start. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/14 23:12:48.366|DEBUG|End. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/14 23:12:48.366|DEBUG|Background worker start. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.<Post
+2018/06/14 23:13:25.725|TRACE|RestClient creation. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator.AddPayment
+2018/06/14 23:13:34.678|TRACE|Omnivore API call start. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator.AddPayment
+2018/06/14 23:13:39.396|TRACE|Omnivore API call end. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator+<AddPayment>d__7.MoveNext
+2018/06/14 23:13:52.990|TRACE|AddPayment time: 32165 msec. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator+<AddPayment>d__7.MoveNext
+2018/06/14 23:13:54.599|DEBUG|Communicator: payment end |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator+<AddPayment>d__7.MoveNext
+2018/06/14 23:13:56.190|INFO|Payment made. LocationId: i95jea7T TransactionId: 62 TicketId: 88838 Amount: 500 Tip: 0 |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator+<AddPayment>d__7.MoveNext
+2018/06/14 23:14:08.099|INFO|Payment added. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.PaymentWorker+<Make3PartyPaymentAsync>d__6.MoveNext
+2018/06/14 23:14:21.239|DEBUG|Background worker end. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController+<>c__DisplayClass2_0+<<Post>b__0>d.MoveNext
+2018/06/14 23:39:01.706|DEBUG|RestSharpCommunicator created. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketRepository..ctor
+2018/06/14 23:39:02.097|DEBUG|Start. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/14 23:39:02.097|DEBUG|End. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/14 23:39:02.097|DEBUG|Background worker start. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.<Post
+2018/06/14 23:39:02.108|TRACE|RestClient creation. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator.AddPayment
+2018/06/14 23:39:02.137|TRACE|Omnivore API call start. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator.AddPayment
+2018/06/14 23:39:03.032|TRACE|Omnivore API call end. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator+<AddPayment>d__7.MoveNext
+2018/06/14 23:39:03.052|TRACE|AddPayment time: 944 msec. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator+<AddPayment>d__7.MoveNext
+2018/06/14 23:39:03.052|DEBUG|Communicator: payment end |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator+<AddPayment>d__7.MoveNext
+2018/06/14 23:39:03.052|INFO|Payment made. LocationId: i95jea7T TransactionId: 63 TicketId: 88839 Amount: 500 Tip: 0 |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator+<AddPayment>d__7.MoveNext
+2018/06/14 23:39:03.052|INFO|Payment added. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.PaymentWorker+<Make3PartyPaymentAsync>d__6.MoveNext
+2018/06/14 23:39:03.052|DEBUG|Background worker end. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController+<>c__DisplayClass2_0+<<Post>b__0>d.MoveNext

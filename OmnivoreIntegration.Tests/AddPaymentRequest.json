@@ -1,0 +1,18 @@
+﻿{
+  "TransactionID": 122333,
+  "BillNo": 87622,
+  "POSDepartments": [
+    {
+      "DepartmentID": 0,
+      "DepartmentName": "string"
+    }
+  ],
+  "POSPaymentID": 0,
+  "BillAmount": 500,
+  "PortionAmount": 500,
+  "TipAmount": 0,
+  "GlobalMerchantLocationID": 0,
+  "LocationIdentifier": "i95jea7T",
+  "PaymentTypeId": 100,
+  "PaymentTypeName": "3rd_party"
+}

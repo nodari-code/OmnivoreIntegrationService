@@ -1,0 +1,138 @@
+2018/06/13 04:35:31.993|DEBUG|RestSharpCommunicator created. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketRepository..ctor
+2018/06/13 04:35:50.173|DEBUG|Start. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/13 04:35:50.184|ERROR|Bill amount is invalid. Transaction ID: 0 |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/13 05:03:30.347|DEBUG|RestSharpCommunicator created. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketRepository..ctor
+2018/06/13 05:03:30.698|DEBUG|Start. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/13 05:03:30.707|ERROR|Payment type name is required. Transaction ID: 0 |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/13 05:28:26.238|DEBUG|RestSharpCommunicator created. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketRepository..ctor
+2018/06/13 05:28:26.519|DEBUG|Start. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/13 05:28:26.519|ERROR|Payment type name is required. Transaction ID: 0 |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/13 17:11:29.527|DEBUG|RestSharpCommunicator created. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketRepository..ctor
+2018/06/13 17:11:29.780|DEBUG|Start. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/13 17:11:29.785|ERROR|Payment type name is required. Transaction ID: 0 |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/13 17:12:41.234|DEBUG|RestSharpCommunicator created. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketRepository..ctor
+2018/06/13 17:12:41.234|DEBUG|Start. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/13 17:12:41.234|ERROR|Payment type name is required. Transaction ID: 0 |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/13 17:26:15.575|DEBUG|RestSharpCommunicator created. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketRepository..ctor
+2018/06/13 17:26:32.028|DEBUG|Start. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/13 17:28:41.384|ERROR|Payment type name is required. Transaction ID: 0 |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/13 17:39:11.604|DEBUG|RestSharpCommunicator created. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketRepository..ctor
+2018/06/13 17:39:17.510|DEBUG|Start. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/13 17:39:45.713|ERROR|TransactionID value is invalid. Transaction ID: 0 |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/13 17:42:40.381|DEBUG|RestSharpCommunicator created. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketRepository..ctor
+2018/06/13 17:43:28.801|DEBUG|Start. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/13 17:43:47.957|DEBUG|Background worker start. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.<Post
+2018/06/13 17:43:47.957|TRACE|RestClient creation. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator.AddPayment
+2018/06/13 17:43:47.973|DEBUG|End. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/13 17:43:50.801|TRACE|Omnivore API call start. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator.AddPayment
+2018/06/13 17:43:51.629|TRACE|Omnivore API call end. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator+<AddPayment>d__7.MoveNext
+2018/06/13 17:43:51.645|TRACE|AddPayment time: 3678 msec. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator+<AddPayment>d__7.MoveNext
+2018/06/13 17:43:51.645|DEBUG|Communicator: payment end |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator+<AddPayment>d__7.MoveNext
+2018/06/13 17:43:51.645|ERROR|not_found
+Not found
+Additional Info:
+Amount: 0
+Tip: 0
+ |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator.LogErrorMessage
+2018/06/13 17:43:51.754|ERROR|Cannot ad payment. GlancePay.OmnivoreIntegration.ExceptionHandling.NotFoundException: NotFound::Not found
+   at GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator.ThrowApiException(PaymentCompleted paymentCompleted) in C:\VisualStudio\OmnivoreIntegrationService\GlancePay.OmnivoreIntegration.Communicator\RestSharpCommunicator.cs:line 115
+   at GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator.<AddPayment>d__7.MoveNext() in C:\VisualStudio\OmnivoreIntegrationService\GlancePay.OmnivoreIntegration.Communicator\RestSharpCommunicator.cs:line 89
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at GlancePay.OmnivoreIntegration.Service.TicketRepository.<AddPaymentAsync>d__3.MoveNext() in C:\VisualStudio\OmnivoreIntegrationService\GlancePay.OmnivoreIntegration.Service\Repository\TicketRepository.cs:line 29
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at GlancePay.OmnivoreIntegration.Service.PaymentWorker.<Make3PartyPaymentAsync>d__6.MoveNext() in C:\VisualStudio\OmnivoreIntegrationService\GlancePay.OmnivoreIntegration.Service\PaymentWorker.cs:line 30|fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.PaymentWorker+<Make3PartyPaymentAsync>d__6.MoveNext
+2018/06/13 17:43:51.770|DEBUG|Background worker end. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController+<>c__DisplayClass2_0+<<Post>b__0>d.MoveNext
+2018/06/13 20:08:44.541|DEBUG|RestSharpCommunicator created. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketRepository..ctor
+2018/06/13 20:08:50.916|DEBUG|Start. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/13 20:09:47.009|DEBUG|End. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/13 21:40:34.510|DEBUG|RestSharpCommunicator created. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketRepository..ctor
+2018/06/13 21:40:34.948|DEBUG|Start. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/13 21:40:34.948|ERROR|Payment type name is required. Transaction ID: 39 |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/13 21:44:32.567|DEBUG|RestSharpCommunicator created. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketRepository..ctor
+2018/06/13 21:44:38.864|DEBUG|Start. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/13 21:49:28.717|ERROR|Payment type name is required. Transaction ID: 40 |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/13 22:16:53.570|DEBUG|RestSharpCommunicator created. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketRepository..ctor
+2018/06/13 22:16:53.930|DEBUG|Start. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/13 22:16:53.930|ERROR|Payment type name is required. Transaction ID: 41 |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/13 22:30:57.270|DEBUG|RestSharpCommunicator created. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketRepository..ctor
+2018/06/13 22:30:57.270|DEBUG|Start. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/13 22:30:57.270|ERROR|Payment type name is required. Transaction ID: 42 |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/13 22:37:38.605|DEBUG|RestSharpCommunicator created. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketRepository..ctor
+2018/06/13 22:37:49.011|DEBUG|Start. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/13 22:40:37.710|ERROR|Payment type identifier is required. Transaction ID: 43 |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/13 23:01:05.080|DEBUG|RestSharpCommunicator created. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketRepository..ctor
+2018/06/13 23:01:05.447|DEBUG|Start. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/13 23:01:05.456|ERROR|Payment type identifier is required. Transaction ID: 44 |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/13 23:12:35.776|DEBUG|RestSharpCommunicator created. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketRepository..ctor
+2018/06/13 23:12:35.776|DEBUG|Start. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/13 23:12:35.776|ERROR|Payment type identifier is required. Transaction ID: 45 |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/13 23:18:40.074|DEBUG|RestSharpCommunicator created. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketRepository..ctor
+2018/06/13 23:18:42.865|DEBUG|Start. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/13 23:18:56.945|DEBUG|Background worker start. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.<Post
+2018/06/13 23:18:56.962|DEBUG|End. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/13 23:19:00.030|TRACE|RestClient creation. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator.AddPayment
+2018/06/13 23:19:00.062|TRACE|Omnivore API call start. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator.AddPayment
+2018/06/13 23:19:00.817|TRACE|Omnivore API call end. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator+<AddPayment>d__7.MoveNext
+2018/06/13 23:19:00.835|TRACE|AddPayment time: 805 msec. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator+<AddPayment>d__7.MoveNext
+2018/06/13 23:19:00.835|DEBUG|Communicator: payment end |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator+<AddPayment>d__7.MoveNext
+2018/06/13 23:19:00.835|ERROR|not_found
+Not found
+Additional Info:
+Amount: 0
+Tip: 0
+ |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator.LogErrorMessage
+2018/06/13 23:19:00.944|ERROR|Cannot ad payment. GlancePay.OmnivoreIntegration.ExceptionHandling.NotFoundException: NotFound::Not found
+   at GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator.ThrowApiException(PaymentCompleted paymentCompleted) in C:\VisualStudio\OmnivoreIntegrationService\GlancePay.OmnivoreIntegration.Communicator\RestSharpCommunicator.cs:line 115
+   at GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator.<AddPayment>d__7.MoveNext() in C:\VisualStudio\OmnivoreIntegrationService\GlancePay.OmnivoreIntegration.Communicator\RestSharpCommunicator.cs:line 89
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at GlancePay.OmnivoreIntegration.Service.TicketRepository.<AddPaymentAsync>d__3.MoveNext() in C:\VisualStudio\OmnivoreIntegrationService\GlancePay.OmnivoreIntegration.Service\Repository\TicketRepository.cs:line 29
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at GlancePay.OmnivoreIntegration.Service.PaymentWorker.<Make3PartyPaymentAsync>d__6.MoveNext() in C:\VisualStudio\OmnivoreIntegrationService\GlancePay.OmnivoreIntegration.Service\PaymentWorker.cs:line 30|fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.PaymentWorker+<Make3PartyPaymentAsync>d__6.MoveNext
+2018/06/13 23:19:00.944|DEBUG|Background worker end. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController+<>c__DisplayClass2_0+<<Post>b__0>d.MoveNext
+2018/06/13 23:23:37.120|DEBUG|RestSharpCommunicator created. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketRepository..ctor
+2018/06/13 23:24:07.343|DEBUG|Start. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/13 23:24:24.757|DEBUG|Background worker start. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.<Post
+2018/06/13 23:25:06.029|DEBUG|End. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController.Post
+2018/06/13 23:25:31.739|TRACE|RestClient creation. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator.AddPayment
+2018/06/13 23:25:48.714|TRACE|Omnivore API call start. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator.AddPayment
+2018/06/13 23:25:51.309|TRACE|Omnivore API call end. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator+<AddPayment>d__7.MoveNext
+2018/06/13 23:26:25.915|TRACE|AddPayment time: 51998 msec. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator+<AddPayment>d__7.MoveNext
+2018/06/13 23:26:29.007|DEBUG|Communicator: payment end |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator+<AddPayment>d__7.MoveNext
+2018/06/13 23:30:25.918|TRACE|RestClient creation. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator+<AddPayment>d__7.MoveNext
+2018/06/13 23:31:04.972|TRACE|Omnivore API call start. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator+<AddPayment>d__7.MoveNext
+2018/06/13 23:45:58.913|TRACE|Omnivore API call start. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator+<AddPayment>d__7.MoveNext
+2018/06/13 23:46:02.716|TRACE|Omnivore API call end. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator+<AddPayment>d__7.MoveNext
+2018/06/13 23:46:19.072|TRACE|AddPayment time: 955140 msec. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator+<AddPayment>d__7.MoveNext
+2018/06/13 23:46:20.224|DEBUG|Communicator: payment end |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator+<AddPayment>d__7.MoveNext
+2018/06/13 23:46:21.325|ERROR|not_found
+Not found
+Additional Info:
+Amount: 0
+Tip: 0
+ |fileGeneralLogger||GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator.LogErrorMessage
+2018/06/13 23:46:21.412|ERROR|Cannot ad payment. GlancePay.OmnivoreIntegration.ExceptionHandling.NotFoundException: NotFound::Not found
+   at GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator.ThrowApiException(PaymentCompleted paymentCompleted) in C:\VisualStudio\OmnivoreIntegrationService\GlancePay.OmnivoreIntegration.Communicator\RestSharpCommunicator.cs:line 115
+   at GlancePay.OmnivoreIntegration.Communicator.RestSharpCommunicator.<AddPayment>d__7.MoveNext() in C:\VisualStudio\OmnivoreIntegrationService\GlancePay.OmnivoreIntegration.Communicator\RestSharpCommunicator.cs:line 89
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at GlancePay.OmnivoreIntegration.Service.TicketRepository.<AddPaymentAsync>d__3.MoveNext() in C:\VisualStudio\OmnivoreIntegrationService\GlancePay.OmnivoreIntegration.Service\Repository\TicketRepository.cs:line 29
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at GlancePay.OmnivoreIntegration.Service.PaymentWorker.<Make3PartyPaymentAsync>d__6.MoveNext() in C:\VisualStudio\OmnivoreIntegrationService\GlancePay.OmnivoreIntegration.Service\PaymentWorker.cs:line 30|fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.PaymentWorker+<Make3PartyPaymentAsync>d__6.MoveNext
+2018/06/13 23:46:21.412|DEBUG|Background worker end. |fileGeneralLogger||GlancePay.OmnivoreIntegration.Service.TicketController+<>c__DisplayClass2_0+<<Post>b__0>d.MoveNext

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OmnivoreIntegration.Dto.TenderType">
+    <Position X="1.5" Y="1.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACgAAAAAAAAAAAAAAAAAQAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>OmnivoreDto\TenderType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OmnivoreIntegration.Dto.Ticket">
+    <Position X="4.25" Y="3.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>gAACAAAAAAAAIAAAAAAQAAQAAIAAQAABAAAAAAACAAA=</HashCode>
+      <FileName>OmnivoreDto\Ticket.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Totals" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="OmnivoreIntegration.Dto.Totals">
+    <Position X="6.75" Y="3.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIAAAAwBAAAgCAAAAAAAAAAAAAAAQAAAAgAAQAAAAAA=</HashCode>
+      <FileName>OmnivoreDto\Totals.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OmnivoreIntegration.Dto.PaymentCompleted">
+    <Position X="1.5" Y="3.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAABAAYABACAAAACAAAAAABAAAQIAAAAAAAA=</HashCode>
+      <FileName>OmnivoreDto\PaymentCompleted.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Embedded" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="OmnivoreIntegration.Dto.Embedded">
+    <Position X="4.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAECAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OmnivoreDto\Embedded.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="TenderType" />
+      <Property Name="Ticket" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="OmnivoreIntegration.Dto.ErrorSlug">
+    <Position X="7.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAQABAAAAAAAAAAAAAAAAAAAAAAAEgAA=</HashCode>
+      <FileName>OmnivoreDto\ErrorSlug.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Metadata" />
+      <Property Name="Embedded" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="OmnivoreIntegration.Dto.Metadata">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAgAAAAAA=</HashCode>
+      <FileName>OmnivoreDto\Metadata.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
